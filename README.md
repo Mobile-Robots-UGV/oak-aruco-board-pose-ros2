@@ -10,7 +10,7 @@ ROS 2 package for real-time ArUco board pose estimation using a Luxonis OAK came
 
 ## 1. Project context
 
-This package is part of the **SmartFollower & Tracker (SFT)** project for warehouse anomaly investigation. The larger system goal is an indoor TurtleBot 4–based robot that can detect and follow an Object of Interest (OOI), handle occlusions, navigate safely, and produce map/trajectory/evidence logs. The project site explicitly lists **ArUco-based OOI detection and tracking** as part of scope, along with smart following control and 2D reconstruction. :contentReference[oaicite:0]{index=0}
+This package is part of the **SmartFollower & Tracker (SFT)** project for warehouse anomaly investigation. The larger system goal is an indoor TurtleBot 4–based robot that can detect and follow an Object of Interest (OOI), handle occlusions, navigate safely, and produce map/trajectory/evidence logs. The project site explicitly lists **ArUco-based OOI detection and tracking** as part of scope, along with smart following control and 2D reconstruction.
 
 ### How this package contributes to the big picture
 
@@ -31,7 +31,7 @@ That makes it a building block for:
 
 ## 2. ROS 2 version used
 
-This package was developed with **ROS 2 Jazzy Jalisco** on Ubuntu. ROS 2 Jazzy is a supported ROS 2 distribution with standard support for Python packages, launch files, parameters, topics, and tf2, all of which are used here. :contentReference[oaicite:1]{index=1}
+This package was developed with **ROS 2 Jazzy Jalisco** on Ubuntu. ROS 2 Jazzy is a supported ROS 2 distribution with standard support for Python packages, launch files, parameters, topics, and tf2, all of which are used here.
 
 ## 3. Features
 
@@ -92,12 +92,12 @@ oak-aruco-board-pose-ros2/
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone <YOUR_REPO_URL> oak-aruco-board-pose-ros2
+git clone https://github.com/Mobile-Robots-UGV/oak-aruco-board-pose-ros2.git
 ```
 
 ### 6.2 Install ROS 2 Jazzy
 
-Install ROS 2 Jazzy on Ubuntu using the official ROS 2 Jazzy instructions. ([ROS Docs][1])
+Install ROS 2 Jazzy on Ubuntu using the official ROS 2 Jazzy instructions.
 
 ### 6.3 Install Python dependencies
 
@@ -376,4 +376,4 @@ Usually caused by:
 
 ## 16. Relation to the [SmartFollower & Tracker project](https://mobile-robots-ugv.github.io/)
 
-The [SmartFollower & Tracker project](https://mobile-robots-ugv.github.io/) targets ArUco-based target detection, robust target following, safety-aware navigation, and 2D reconstruction/evidence logging in warehouse-like environments. This repository contributes the target pose-estimation module that gives ROS 2-accessible target-relative pose for downstream planning, control, logging, and visualization. ([SmartFollower & Tracker][2])
+The [SmartFollower & Tracker project](https://mobile-robots-ugv.github.io/) targets ArUco-based target detection, robust target following, safety-aware navigation, and 2D reconstruction/evidence logging in warehouse-like environments. This repository contributes the target pose-estimation module that gives ROS 2-accessible target-relative pose for downstream planning, control, logging, and visualization.
