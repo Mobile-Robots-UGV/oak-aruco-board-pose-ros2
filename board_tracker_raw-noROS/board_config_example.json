@@ -1,0 +1,12 @@
+{
+  "board_size_m": 0.15,
+  "marker_size_m": 0.03,
+  "dictionary": "DICT_6X6_250",
+  "frame_description": "Board frame origin at board center. +X points right on the board. +Y points up on the board. Z=0 is the board plane.",
+  "markers": {
+    "0": {"top_left_xy_m": [-0.075, 0.075]},
+    "1": {"top_left_xy_m": [0.045, 0.075]},
+    "2": {"top_left_xy_m": [0.045, -0.045]},
+    "3": {"top_left_xy_m": [-0.075, -0.045]}
+  }
+}
