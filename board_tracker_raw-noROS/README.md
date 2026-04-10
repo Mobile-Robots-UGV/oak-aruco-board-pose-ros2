@@ -21,10 +21,10 @@ Typical workflow files in this folder:
 - `track_board_pose.py` — estimate board pose and show `X Y Z` live
 - `board_config.json` — board geometry, marker size, marker IDs, and rotations
 
-The calibration script is ChArUco-based and uses an 11 x 8 board with configurable square size, marker size, and 4x4 dictionary. :contentReference[oaicite:0]{index=0}  
-The board tracker loads a camera calibration file and a JSON board configuration, then estimates pose with `solvePnP`. :contentReference[oaicite:1]{index=1}  
-The live ID detector uses OpenCV ArUco detection and prints the detected IDs from the camera stream. :contentReference[oaicite:2]{index=2}  
-The current board config uses `DICT_6X6_250`, `marker_size_m = 0.0225`, and marker `2` rotated by 180 degrees. :contentReference[oaicite:3]{index=3}
+The calibration script is ChArUco-based and uses an 11 x 8 board with configurable square size, marker size, and 4x4 dictionary.
+The board tracker loads a camera calibration file and a JSON board configuration, then estimates pose with `solvePnP`.
+The live ID detector uses OpenCV ArUco detection and prints the detected IDs from the camera stream.
+The current board config uses `DICT_6X6_250`, `marker_size_m = 0.0225`, and marker `2` rotated by 180 degrees.
 
 ## Requirements
 
